@@ -6,16 +6,16 @@ Height = int(input())
 print('Enter your Radius..')
 Radius = int(input())
 
-Side_area = (float((2*3.14)*Radius*Height))
-print("side area is ", float(Side_area))
+Side_area = ((2*3.14)*Radius*Height)
+print("side area is ",(Side_area))
 
 print("***************************************************")
 
-Volume = (float((3.14)*Radius*Radius*Height))
-print("Volume is ", float(Volume))
+Volume = ((3.14)*Radius*Radius*Height)
+print("Volume is ",(Volume))
 
 print("***************************************************")
 
-total_area = (float((2*3.14)*Radius*(Radius+Height)))
-print("total area is ", float(total_area))
+total_area = ((2*3.14)*Radius*(Radius+Height))
+print("total area is ",(total_area))
 
