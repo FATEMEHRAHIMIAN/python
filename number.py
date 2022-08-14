@@ -1,6 +1,6 @@
 print('Enter a Number..')
 Num = int(input())
-digit_2=  Num % 1000
-digit_3 = Num % 100
+digit_2=  Num // 10 % 10
+digit_5 = Num // 10000 % 10
 
-print(float((digit_2 - digit_3)/100))
+print (digit_2 + digit_5)
